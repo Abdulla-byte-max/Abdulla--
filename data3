@@ -1,0 +1,32 @@
+pen the GitBash terminal in local system and configure the GitHub Credentials in local system(developer where he is working) 
+
+4: Add your github email and username to git 
+	git config --global user.email "yourGitHub@email.com"
+		$git config --global user.email "trainings.anil@gmail.com"
+
+	git config --global user.name "yourGitHubusername"
+		 $git config --global user.name "trainingsrepo"
+
+5: Open the git hub and create one repository
+		and copy the repository url
+		https://github.com/cubeiplKumar/samplerepo.git
+
+
+
+6. Configure the Remote Repository in Developer local system   
+
+	git clone <copy the repo url from github>
+
+ 	git clone https://github.com/cubeiplKumar/samplerepo.git
+ 
+7:  India@LAPTOP-VODHAM22 MINGW64 ~/desktop/samplerepo (main)
+
+8: Now add some files into this folder
+	$touch test.txt
+	$git status
+	(here it will show the new file in red color)
+	$git add test.txt
+	( after adding the files, now check the status again)
+
+	[Optional:  to add multiple files
+	$git add -A  ]
